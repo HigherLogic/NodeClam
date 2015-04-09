@@ -9,14 +9,14 @@ You can either run the application by itself, or in a Docker container. A Docker
 
 ###Stand alone
 
-    git clone https://github.com/HigherLogic/NodeClam.git
-    cd ./NodeClam
+    git clone https://github.com/HigherLogic/Nodeclam.git
+    cd ./Nodeclam
     npm install
     node ./nodeclam.js
 
 ###Docker
 
-    sudo docker build -t nodeclam https://github.com/HigherLogic/NodeClam.git
+    sudo docker build -t nodeclam https://github.com/HigherLogic/Nodeclam.git
     sudo docker run -d -p 80:8080 -i nodeclam
 
 Installing ClamAV depends on your package manager.
