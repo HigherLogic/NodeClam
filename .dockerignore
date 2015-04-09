@@ -1,2 +1,5 @@
 .dockerignore
 Dockerfile
+.gitignore
+license.md
+readme.md
