@@ -1,0 +1,9 @@
+{
+	"name": "NodeClam",
+	"version": "1.0.0",
+	"author": "Kevin Jones",
+	"private": true,
+	"dependencies": {
+		"busboy": "0.2.9"
+	}
+}
