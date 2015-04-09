@@ -7,10 +7,17 @@ Nodeclam is a Node.js front end for the ClamAV anti-virus scanner. The primary u
 
 You can either run the application by itself, or in a Docker container. A Dockerfile is included to easily deploy this to Docker. The Dockerfile also ensures the application is not running a root, and instead creates a node user.
 
+###Stand alone
+
     git clone https://github.com/HigherLogic/NodeClam.git
     cd ./NodeClam
     npm install
     node ./nodeclam.js
+
+###Docker
+
+    sudo docker build -t nodeclam https://github.com/HigherLogic/NodeClam.git
+    sudo docker run -d -p 80:8080 -i nodeclam
 
 Installing ClamAV depends on your package manager.
 
